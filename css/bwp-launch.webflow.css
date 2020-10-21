@@ -74,19 +74,22 @@
 .text-block-2 {
   position: absolute;
   left: 120px;
-  top: 278px;
+  top: 294px;
   -webkit-perspective: 2000px;
   perspective: 2000px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 34px;
-  font-weight: 700;
+  font-size: 28px;
+  line-height: 16px;
+  font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
   white-space: normal;
 }
 
 .section {
   padding-bottom: 345px;
+  letter-spacing: -0.5px;
 }
 
 .image-3 {
@@ -108,15 +111,17 @@
   bottom: 0%;
   height: 100px;
   margin-top: 398px;
-  margin-right: 185px;
+  margin-right: 181px;
   margin-left: 0px;
   padding-left: 0px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 34px;
-  font-weight: 700;
+  font-size: 28px;
+  line-height: 18px;
+  font-weight: 400;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .link-block {
@@ -128,7 +133,7 @@
   left: 86px;
   top: 520px;
   right: auto;
-  height: 300px;
+  height: 320px;
 }
 
 .text-block-4 {
@@ -146,17 +151,19 @@
 
 .text-block-5 {
   position: absolute;
-  left: 143px;
-  top: 630px;
+  left: 141px;
+  top: 659px;
   right: auto;
   bottom: auto;
   z-index: 10;
   margin-top: 0px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
-  font-size: 34px;
-  font-weight: 700;
+  font-size: 28px;
+  line-height: 18px;
+  font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .body-2 {
@@ -187,13 +194,14 @@
   right: 0%;
   bottom: 0%;
   height: 150px;
-  margin-top: 231px;
-  margin-right: 500px;
-  font-family: Lato, sans-serif;
+  margin-top: 193px;
+  margin-right: 482px;
+  margin-left: 0px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
   font-size: 34px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -203,9 +211,11 @@
 }
 
 .heading {
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 34px;
-  font-weight: 700;
+  line-height: 39px;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 .paragraph {
@@ -323,12 +333,13 @@
   width: auto;
   max-width: 100vw;
   margin-top: 120px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
   font-size: 22px;
-  line-height: 30px;
-  font-weight: 700;
+  line-height: 27px;
+  font-weight: 400;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .image-11 {
@@ -352,12 +363,13 @@
 }
 
 .paragraph-3 {
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 28px;
   font-weight: 400;
   text-align: left;
+  letter-spacing: -0.5px;
 }
 
 .button {
@@ -367,7 +379,7 @@
   border: 2px dashed #000;
   border-radius: 11px;
   background-color: rgba(56, 152, 236, 0);
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
 }
 
@@ -388,17 +400,19 @@
   right: 20%;
   bottom: auto;
   width: 200px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #000;
   font-size: 34px;
   line-height: 38px;
+  font-weight: 400;
   text-align: center;
 }
 
 .heading-3 {
   margin-top: 50px;
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -417,9 +431,10 @@
 }
 
 .paragraph-4 {
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 29px;
+  letter-spacing: -0.5px;
 }
 
 .section-2 {
@@ -427,8 +442,12 @@
 }
 
 .heading-4 {
-  font-family: Lato, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 34px;
+  line-height: 39px;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  text-indent: 0%;
 }
 
 .container-7 {
@@ -437,6 +456,27 @@
 
 .container-8 {
   text-align: center;
+}
+
+.text-span {
+  text-decoration: underline;
+}
+
+.div-block-2 {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 40%;
+  top: 60%;
+  right: 0%;
+  bottom: 0%;
+  text-align: center;
+}
+
+.text-block-10 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 479px) {
